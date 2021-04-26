@@ -9,7 +9,17 @@ class card:
     def __str__(self):
         print("Please enter the answer for: " + self.word)
         return self.word
+
+
+x = True
+
+while x != quit: 
+    userinput = input("Please type press 1 for a random work to define or quit to end the program" )
+
+
+
 empty = " "
+
 while(True):
     question = input("please enter a word to save: ")
     answer = input("Please enter the answer to the word: ")
