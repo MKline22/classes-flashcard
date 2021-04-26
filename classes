@@ -12,4 +12,5 @@ class card:
 empty = " "
 while(True):
     question = input("please enter a word to save: ")
-    
+    answer = input("Please enter the answer to the word: ")
+    empty.append(card(question, answer))
