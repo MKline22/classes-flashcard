@@ -2,8 +2,10 @@ This program will not be finished
 class card:
     def __init__(self, question, answer, correct, incorrect):
         self.word = question
-        elf.define = answer
+        self.define = answer
         self.correct = correct
         self.wrong = incorrect
 
-    def
+    def __str__(self):
+        print("Please enter the answer for: " + self.word)
+        return self.word
