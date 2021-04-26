@@ -9,3 +9,7 @@ class card:
     def __str__(self):
         print("Please enter the answer for: " + self.word)
         return self.word
+empty = " "
+while(True):
+    question = input("please enter a word to save: ")
+    
