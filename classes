@@ -1,2 +1,7 @@
 This program will not be finished
 class card:
+    def __init__(self, question, answer, correct, incorrect):
+    self.word = question
+    self.define = answer
+    self.correct = correct
+    self.wrong = incorrect
