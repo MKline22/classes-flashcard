@@ -15,7 +15,10 @@ x = True
 
 while x != quit: 
     userinput = input("Please type press 1 for a random work to define or quit to end the program" )
-
+    x = userinput
+    if x in ['quit']:
+    print("You've chose to end the program! Goodbye!)
+    quit()
 
 
 empty = " "
