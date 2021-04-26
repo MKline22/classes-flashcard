@@ -20,6 +20,8 @@ while x != quit:
     print("You've chose to end the program! Goodbye!)
     quit()
 
+ tsv_file = open("words.tsv")
+ read_file = csv. reader(tsv_file, delimiter="\t")
 
 empty = " "
 
