@@ -1,4 +1,3 @@
-This program will not be finished
 class card:
     def __init__(self, question, answer, correct, incorrect):
         self.word = question
@@ -14,14 +13,14 @@ class card:
 x = True
 
 while x != quit: 
-    userinput = input("Please type press 1 for a random work to define or quit to end the program" )
+    userinput = input("Please type press 1 for a random work to define or quit to end the program: " )
     x = userinput
     tsv_file = open("words.tsv")
     read_file = csv. reader(tsv_file, delimiter="\t")
     for row in read_file:
-    print(row)
+      print(row)
     if x in ['quit']:
-    print("You've chose to end the program! Goodbye!)
+      print("You've chose to end the program! Goodbye!")
     quit()
 
 
@@ -34,5 +33,3 @@ while(True):
     question = input("please enter a word to save: ")
     answer = input("Please enter the answer to the word: ")
     empty.append(card(question, answer))
-
-end of tonight trying to get it to work piece by piece
